@@ -67,8 +67,8 @@ jobs:
           fetch-depth: 0
       - name: Configure git user
         run: |
-          git config --global user.email "test@test.com"
-          git config --global user.name "Eric Riddoch"
+          git config --global user.email "dandence@gmail.com"
+          git config --global user.name "d.ence"
       - run: |
           bash -x run.sh open-pr-with-generated-project
         env:

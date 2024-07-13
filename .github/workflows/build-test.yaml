@@ -44,8 +44,8 @@ jobs:
           python-version: 3.8
       - name: Configure git CLI
         run: |
-          git config --global user.email "git-bot-user@python-course.com"
-          git config --global user.name "phitoduck"
+          git config --global user.email "dandence@gmail.com"
+          git config --global user.name "d.ence"
       - name: Run tests
         run: |
           make install
