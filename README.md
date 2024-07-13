@@ -1,7 +1,11 @@
-# Cloud Course: Python Package Template
+# DEnce Cookiecutter: Python Package Template
 
-This is a project scaffold to help you quickly get up and running with a Python package using
-modern, industry standard tools and practices.
+This is a cookie-cutter template repo intended for my personal use.
+I'm making it public in case others find it useful. 
+It is based on the cookiecutter template created by Eric Riddoch for his python in the cloud course. 
+I highly recommend checking out his content [https://mlops-club.org/] if you want to learn more about the opinions
+that guided this repo. 
+That being said however, I expect the contents of this repo to drift over time from the original setup. 
 
 The template comes with an opinionated VS Code settings configuration file to help ensure
 the best integration with the tools here, e.g.
@@ -24,13 +28,14 @@ pip install cookiecutter
 # cookie cut the template, answering the prompts, e.g.
 #  - repo_name: my-awesome-package
 #  - package_import_name: my_awesome_package
-cookiecutter https://github.com/mlops-club/cloud-course-python-package-cookiecutter.git
+cookiecutter https://github.com/dence/dence-ds-cookiecutter
 ```
 
 ## What are the opinions in this template?
 
 ### Notable comments about the file structure
 
+- `notebooks/` - is where the notebooks go
 - `src/<package-name>/` - contains the package code. Using an `src/` folder is a best practice.
 - `tests/` has minimal boilerplate that
   - Makes fixtures work using `conftest.py`
