@@ -1,11 +1,11 @@
 # DEnce Cookiecutter: Python Package Template
 
 This is a cookie-cutter template repo intended for my personal use.
-I'm making it public in case others find it useful. 
-It is based on the cookiecutter template created by Eric Riddoch for his python in the cloud course. 
-I highly recommend checking out his content [https://mlops-club.org/] if you want to learn more about the opinions
-that guided this repo. 
-That being said however, I expect the contents of this repo to drift over time from the original setup. 
+I'm making it public in case others find it useful.
+It is based on the cookiecutter template created by Eric Riddoch for his python in the cloud course.
+I highly recommend checking out [his content] (https://mlops-club.org/) if you want to learn more about the opinions
+that guided this repo.
+That being said however, I expect the contents of this repo to drift over time from the original setup.
 
 The template comes with an opinionated VS Code settings configuration file to help ensure
 the best integration with the tools here, e.g.
