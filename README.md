@@ -85,21 +85,8 @@ This project template makes use of
 
 **Notes**
 
-- [`mypy`](https://mypy.readthedocs.io/en/stable/) could be added but is not present in this template
-
-## I need help learning about all of these tools
-
-For an in-depth, step-by-step guide on the history of Python packaging and explanations of all
-the tools used in this scaffold, you can take the Udemy course
-[Taking Python to Production: A Professional Onboarding Guide](https://www.udemy.com/course/setting-up-the-linux-terminal-for-software-development/?referralCode=EE86AF0C55EE90E3C8AE) where
-we develop this template from scratch as well as many other foundational SWE skills, e.g. git, GitHub, CI/CD GitHub Actions, zsh, and testing.
-
-<img src="./assets/taking-python-to-production.png" alt="Taking Python to Production Thumbnail" style="max-width: 400px;">
-
 ## Contributing
 
 ### Roadmap
 
-- [ ] Add screenshots and GIFs to the README of the cookie cut project that demonstrate
-      the VS Code integrations, e.g. the Test Explorer, squiggly lines, autoformatting, etc.
 # dence-ds-cookiecutter
