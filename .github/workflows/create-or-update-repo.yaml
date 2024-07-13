@@ -30,7 +30,7 @@ jobs:
       - name: Configure git user
         run: |
           git config --global user.email "test@test.com"
-          git config --global user.name "Eric Riddoch"
+          git config --global user.name "Daniel Ence"
       - run: |
           bash -x run.sh create-repo-if-not-exists
         env:
@@ -49,7 +49,7 @@ jobs:
       - name: Configure git user
         run: |
           git config --global user.email "test@test.com"
-          git config --global user.name "Eric Riddoch"
+          git config --global user.name "Daniel Ence"
       - run: |
           bash -x run.sh configure-repo
         env:
@@ -68,7 +68,7 @@ jobs:
       - name: Configure git user
         run: |
           git config --global user.email "dandence@gmail.com"
-          git config --global user.name "d.ence"
+          git config --global user.name "Daniel Ence"
       - run: |
           bash -x run.sh open-pr-with-generated-project
         env:
